@@ -36,8 +36,7 @@ pipeline {
             steps {
                 // Push the Docker image to the registry
                 script {
-                        sh "docker push ${DOCKER_REGISTRY}/${DOCKER_IMAGE}"
-                    }
+                    sh "docker push ${DOCKER_REGISTRY}/${DOCKER_IMAGE}"
                 }
             }
         }
