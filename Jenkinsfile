@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'dkhw'
-        DOCKER_REGISTRY = 'images'
+        DOCKER_REGISTRY = 'dkhw'
+        DOCKER_IMAGE = 'images'
     }
 
     stages {
