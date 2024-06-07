@@ -16,4 +16,4 @@ spec:
         - name: web-server
           image: dkhw/images:latest
           ports:
-            - containerPort: 7070
+            - containerPort: 8080
